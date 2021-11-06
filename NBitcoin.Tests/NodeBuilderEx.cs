@@ -32,7 +32,7 @@ namespace NBitcoin.Tests
 
 			//var builder = NodeBuilder.Create(NodeDownloadData.Colossus.v1_1_1, Altcoins.Colossus.Instance.Regtest, caller);
 
-			//var builder = NodeBuilder.Create(NodeDownloadData.GoByte.v0_12_2_4, Altcoins.GoByte.Instance.Regtest, caller);
+			//var builder = NodeBuilder.Create(NodeDownloadData.GoByte.v0_11_1_1, Altcoins.GoByte.Instance.Regtest, caller);
 
 			//var builder = NodeBuilder.Create(NodeDownloadData.Monacoin.v0_15_1, Altcoins.Monacoin.Regtest, caller);
 

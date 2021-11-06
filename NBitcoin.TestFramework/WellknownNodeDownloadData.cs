@@ -1395,29 +1395,29 @@ namespace NBitcoin.Tests
 		public class GoByteNodeDownloadData
  : NodeDownloadDataBase
 		{
-			public NodeDownloadData v0_12_2_4 = new NodeDownloadData()
+			public NodeDownloadData v0_16_1_1 = new NodeDownloadData()
 			{
-				Version = "0.12.2.4",
+				Version = "0.16.1",
 				Windows = new NodeOSDownloadData()
 				{
-					DownloadLink = "https://github.com/gobytecoin/gobyte/releases/download/v{0}/GoByte_{0}_Windows32.zip",
-					Archive = "GoByte_{0}_Windows32.zip",
-					Executable = "GoByte_{0}_Windows32/gobyted.exe",
-					Hash = "333144de13cb5b1a5e1d81890ed8e91dbc9e52bb63eecd10f397c879f5725de1",
+					DownloadLink = "https://github.com/gobytecoin/gobyte/releases/download/v{0}.1/gobytecore-{0}-win32.zip",
+					Archive = "gobytecore_{0}_win32.zip",
+					Executable = "gobytecore_{0}_win32/bin/gobyted.exe",
+					Hash = "9c08e40d4d037e75e395d816627e9c108d66204da05c23d6e946e689a5fdc6ae",
 				},
 				Linux = new NodeOSDownloadData()
 				{
-					DownloadLink = "https://github.com/gobytecoin/gobyte/releases/download/v{0}/GoByteCore-{0}_Linux64.tar.gz",
-					Archive = "GoByteCore-{0}_Linux64.tar.gz",
-					Executable = "GoByteCore-{0}_Linux64/gobyted",
-					Hash = "d2419274d1234b80c5756247775ace04abc85a8f74b91760c8c25f65212e4e57",
+					DownloadLink = "https://github.com/gobytecoin/gobyte/releases/download/v{0}.1/gobytecore-{0}-x86_64-linux-gnu.tar.gz",
+					Archive = "gobytecore-0.{0}-x86_64-linux-gnu.tar.gz",
+					Executable = "gobytecore-{0}/bin/gobyted",
+					Hash = "6b4aec919de0c1379fb458e681b57ede7c4b7622b723b6d0d076cc834922e92e",
 				},
 				Mac = new NodeOSDownloadData()
 				{
-					DownloadLink = "https://github.com/gobytecoin/gobyte/releases/download/v0.12.2.4/GoByte_0.12.2.4_MacOS.dmg",
-					Archive = "GoByte_0.12.2.4_MacOS.dmg",
-					Executable = "gobyted",
-					Hash = "de8fa9bd6aa4dbab2c93627b94185eb58b24cd05d5628ede1086f305362f1b0f",
+					DownloadLink = "https://github.com/gobytecoin/gobyte/releases/download/v{0}.1/gobytecore-{0}-osx64.tar.gz",
+					Archive = "gobytecore-{0}-osx.tar.gz",
+					Executable = "gobytecore-{0}/bin/gobyted",
+					Hash = "fd4983484b7b2afb4cf0df35744ecd9a44cc1067faa2506cef4e84a317fc0a7d",
 				}
 			};
 		}
